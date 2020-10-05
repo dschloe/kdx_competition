@@ -1,2 +1,2 @@
 # kdx_competition
-Temp~
+Temp~~
