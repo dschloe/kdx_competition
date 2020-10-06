@@ -1,0 +1,36 @@
+---
+title: "test"
+author: "jihoon"
+date: '2020 10 6 '
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      warning = FALSE, 
+                      message = FALSE)
+```
+
+## 패키지 불러오기
+```{r}
+library(dplyr)
+library(ggplot2)
+```
+
+
+## R Markdown
+
+책 내용~~ 
+
+## 시각화
+- 시각화 입니다.
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_point(aes(color = class))
+```
+
+## 이미지 경로
+- 이미지 경로 입니다. 
+
+![](img/test.jpg)
+
